@@ -3,7 +3,7 @@ import 'package:fancy_element/fancy_element.dart';
 import 'package:flutter/material.dart';
 
 class fancyCard extends StatefulWidget {
-  const fancyCard({super.key});
+  const fancyCard({super.key, required title});
 
   @override
   State<fancyCard> createState() => _fancyCardState();

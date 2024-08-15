@@ -19,13 +19,12 @@ class crud extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      routes: AppRoute.route,
+      onGenerateRoute: AppRoute.DyanmicRoute,  
       initialRoute: AppRoute.homeRoute,
        home: const Scaffold(
-        // body: Center(
-        //   child:homeScreen()
-
-        // ),
+        body: Center(
+        
+        ),
         )
     );
   }
